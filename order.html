@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+  <head>
+    <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="טופס בחירת שירותים ושליחת בקשה ל-WhatsApp." /><meta name="theme-color" content="#02070c" />
+    <title>בניית הצעת שירות — Cyber Shamanic</title><link rel="icon" href="assets/icons/favicon.ico" /><link rel="stylesheet" href="styles/main.css" />
+  </head>
+  <body>
+    <header class="site-header"><div class="container header-inner">
+      <a class="brand" href="index.html"><img src="assets/images/cyber-shamanic-logo.png" alt="" /><span class="brand-text"><strong>Cyber Shamanic</strong><small>CODE × CONSCIOUSNESS</small></span></a>
+      <nav class="main-nav" data-main-nav aria-label="ניווט ראשי"><a href="index.html">בית</a><a href="about.html">אודות</a><a href="services.html">שירותים</a><a href="pricing.html">מחירון</a><a href="projects.html">פרויקטים</a><a href="order.html" aria-current="page">הזמנה</a></nav>
+      <a class="header-action" href="https://wa.me/972535366687" target="_blank" rel="noreferrer">WhatsApp <span>↗</span></a><button class="mobile-toggle" type="button" aria-label="פתיחת תפריט" aria-expanded="false" data-menu-toggle>☰</button>
+    </div></header>
+
+    <main>
+      <section class="page-hero"><div class="container">
+        <div class="breadcrumb">HOME / ORDER / 005</div><p class="kicker">מחולל הצעת שירות</p>
+        <h1>בחרו. פרטו. <span>שלחו ל־WhatsApp.</span></h1>
+        <p>הטופס מכין הודעה מסודרת עם פרטי הקשר, השירותים, אומדן המחיר, התקציב, לוח הזמנים ותיאור הבקשה.</p>
+      </div></section>
+
+      <section class="container section">
+        <form class="order-shell" data-order-form>
+          <section class="form-section" aria-labelledby="contact-title">
+            <h2 id="contact-title">01 · פרטי קשר</h2>
+            <div class="form-grid">
+              <div class="field"><label for="name">שם מלא *</label><input id="name" name="name" autocomplete="name" required /></div>
+              <div class="field"><label for="company">עסק / פרויקט</label><input id="company" name="company" autocomplete="organization" /></div>
+              <div class="field"><label for="email">אימייל *</label><input id="email" name="email" type="email" autocomplete="email" required /></div>
+              <div class="field"><label for="phone">טלפון *</label><input id="phone" name="phone" type="tel" autocomplete="tel" required /></div>
+            </div>
+          </section>
+
+          <section class="form-section" aria-labelledby="services-title">
+            <h2 id="services-title">02 · בחירת שירותים</h2>
+
+            <div class="category-block"><h3>🔐 אבטחת סייבר</h3><div class="calculator-grid">
+              <label class="choice"><input type="checkbox" name="services" value="security-review" data-name="סקירת אבטחה" data-category="אבטחת סייבר" data-price="1200" /><span><strong>סקירת אבטחה</strong><small>בדיקה ראשונית והמלצות · החל מ־₪1,200</small></span></label>
+              <label class="choice"><input type="checkbox" name="services" value="threat-model" data-name="מודל איומים" data-category="אבטחת סייבר" data-price="1600" /><span><strong>מודל איומים</strong><small>נכסים, תרחישים ובקרות · החל מ־₪1,600</small></span></label>
+              <label class="choice"><input type="checkbox" name="services" value="linux-hardening" data-name="הקשחת Linux" data-category="אבטחת סייבר" data-price="1800" /><span><strong>הקשחת Linux</strong><small>שירותים, הרשאות ותצורה · החל מ־₪1,800</small></span></label>
+              <label class="choice"><input type="checkbox" name="services" value="devsecops" data-name="ייעוץ DevSecOps" data-category="אבטחת סייבר" data-price="2200" /><span><strong>ייעוץ DevSecOps</strong><small>בדיקות ותהליך מאובטח · החל מ־₪2,200</small></span></label>
+            </div></div>
+
+            <div class="category-block"><h3>🤖 בינה מלאכותית</h3><div class="calculator-grid">
+              <label class="choice"><input type="checkbox" name="services" value="ai-agent" data-name="סוכן AI בסיסי" data-category="בינה מלאכותית" data-price="2800" /><span><strong>סוכן AI בסיסי</strong><small>משימה אחת וזרימת עבודה · החל מ־₪2,800</small></span></label>
+              <label class="choice"><input type="checkbox" name="services" value="rag-system" data-name="מערכת RAG" data-category="בינה מלאכותית" data-price="3600" /><span><strong>מערכת RAG</strong><small>בסיס ידע ושאילתות · החל מ־₪3,600</small></span></label>
+              <label class="choice"><input type="checkbox" name="services" value="chatbot" data-name="צ׳אטבוט מותאם" data-category="בינה מלאכותית" data-price="2400" /><span><strong>צ׳אטבוט מותאם</strong><small>שפה, ידע ותרחישים · החל מ־₪2,400</small></span></label>
+              <label class="choice"><input type="checkbox" name="services" value="prompt-system" data-name="מערכת פרומפטים" data-category="בינה מלאכותית" data-price="900" /><span><strong>מערכת פרומפטים</strong><small>תבניות והנחיות עבודה · החל מ־₪900</small></span></label>
+            </div></div>
+
+            <div class="category-block"><h3>⚙️ אוטומציה ו־OSINT</h3><div class="calculator-grid">
+              <label class="choice"><input type="checkbox" name="services" value="automation" data-name="אוטומציה מותאמת" data-category="אוטומציה" data-price="1400" /><span><strong>אוטומציה מותאמת</strong><small>תהליך מחובר אחד · החל מ־₪1,400</small></span></label>
+              <label class="choice"><input type="checkbox" name="services" value="api-integration" data-name="חיבור API" data-category="אוטומציה" data-price="1700" /><span><strong>חיבור API</strong><small>אינטגרציה ותיעוד · החל מ־₪1,700</small></span></label>
+              <label class="choice"><input type="checkbox" name="services" value="osint-report" data-name="דוח OSINT" data-category="OSINT" data-price="950" /><span><strong>דוח OSINT</strong><small>מחקר פומבי ממוקד · החל מ־₪950</small></span></label>
+              <label class="choice"><input type="checkbox" name="services" value="osint-workflow" data-name="תהליך OSINT" data-category="OSINT" data-price="1900" /><span><strong>תהליך OSINT</strong><small>שיטה, כלים ותיעוד · החל מ־₪1,900</small></span></label>
+            </div></div>
+
+            <div class="category-block"><h3>🌐 אתרים, ענן ומותג</h3><div class="calculator-grid">
+              <label class="choice"><input type="checkbox" name="services" value="landing-page" data-name="דף נחיתה" data-category="Web" data-price="1800" /><span><strong>דף נחיתה</strong><small>עיצוב ופיתוח · החל מ־₪1,800</small></span></label>
+              <label class="choice"><input type="checkbox" name="services" value="portfolio-site" data-name="אתר תדמית" data-category="Web" data-price="4200" /><span><strong>אתר תדמית</strong><small>רב־עמודי ורספונסיבי · החל מ־₪4,200</small></span></label>
+              <label class="choice"><input type="checkbox" name="services" value="brand-kit" data-name="ערכת מותג דיגיטלית" data-category="עיצוב" data-price="1500" /><span><strong>ערכת מותג</strong><small>לוגו, שפה ונכסים · החל מ־₪1,500</small></span></label>
+              <label class="choice"><input type="checkbox" name="services" value="github-repo" data-name="מאגר GitHub מקצועי" data-category="קוד פתוח" data-price="1100" /><span><strong>מאגר GitHub</strong><small>README, מבנה ותיעוד · החל מ־₪1,100</small></span></label>
+            </div></div>
+          </section>
+
+          <section class="form-section" aria-labelledby="scope-title">
+            <h2 id="scope-title">03 · מסגרת הפרויקט</h2>
+            <div class="form-grid">
+              <div class="field"><label for="budget">תקציב מועדף</label><select id="budget" name="budget"><option value="">בחרו טווח</option><option>עד ₪1,500</option><option>₪1,500–₪3,500</option><option>₪3,500–₪7,500</option><option>₪7,500–₪15,000</option><option>מעל ₪15,000</option></select></div>
+              <div class="field"><label for="timeline">לוח זמנים</label><select id="timeline" name="timeline"><option value="">בחרו יעד</option><option>דחוף — עד שבוע</option><option>שבועיים עד חודש</option><option>חודש עד שלושה חודשים</option><option>פרויקט מתמשך</option><option>גמיש</option></select></div>
+              <div class="field field-full"><label for="details">תיאור הבקשה *</label><textarea id="details" name="details" required placeholder="ספרו מה אתם רוצים לבנות, מה קיים היום, למי זה מיועד ומהי התוצאה הרצויה."></textarea></div>
+            </div>
+          </section>
+
+          <aside class="summary-panel" aria-live="polite">
+            <h3>🧾 סיכום הבחירה</h3><ul class="summary-list" data-summary-list><li>עדיין לא נבחרו שירותים.</li></ul><div class="summary-total" data-summary-total>אומדן התחלתי: ₪0</div>
+          </aside>
+
+          <div class="form-actions">
+            <button class="button button-primary" type="submit">שליחת הבקשה ל־WhatsApp ↗</button>
+            <button class="button button-secondary" type="reset">ניקוי הטופס</button>
+            <span class="form-status" data-form-status role="status"></span>
+          </div>
+        </form>
+      </section>
+    </main>
+
+    <footer class="site-footer"><div class="container footer-grid"><a class="brand" href="index.html"><img src="assets/images/cyber-shamanic-logo.png" alt="" /><span class="brand-text"><strong>Cyber Shamanic</strong><small>LET'S BUILD.</small></span></a><div class="footer-meta"><span>SITEFORGE · v0.0.2</span><span>WHATSAPP · +972 53-536-6687</span><span>EMAIL · cybershamanic@gmail.com</span></div><blockquote>״בְּכָל דְּרָכֶיךָ דָעֵהוּ״<cite>משלי ג׳, ו׳</cite></blockquote></div></footer>
+    <script src="functions/navigation.js" defer></script><script src="functions/order-form.js" defer></script><script src="functions/ui.js" defer></script>
+  </body>
+</html>
